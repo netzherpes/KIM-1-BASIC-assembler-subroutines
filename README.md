@@ -6,6 +6,9 @@ Last week I broke my head over a essential question:<br>
 KIM-1 Microsoft Basic has no GET command, because you can not scan the serial line like a keyboard.
 But without this command you are not able to program a game other than puzzles or adventures, because you have no direct input.
 
+**UPDATE: there is a patch to add the GET command... look here: **<br>
+http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/kim-1-software/microsoft-kb-9-basic/#adapt
+
 What if we could use the hex pad ion the KIM-1 like a joystick for input? This would require an somewhere hidden assembler routine to scan for button pushes.
 
 There is a BASIC command for doing so called USR (user sub routine) 
